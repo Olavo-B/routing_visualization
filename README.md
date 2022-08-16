@@ -2,5 +2,7 @@
 
 ## Tested GRN
 
-GRN name | Nodes | Edges | R validated
-*** | *** | *** | ***
+| GRN name | Nodes | Edges | R validated | Arch |
+| ******** | ***** | ***** | *********** | **** |
+
+
