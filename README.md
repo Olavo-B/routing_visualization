@@ -4,5 +4,5 @@
 
 | GRN name | Nodes | Edges | R validated | Arch |
 | ******** | ***** | ***** | *********** | **** |
-
+| xxxx | XX | XX | XX | XX | 
 
