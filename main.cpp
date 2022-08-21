@@ -9,7 +9,7 @@ using std::chrono::seconds;
 
 int main(){
 
-    MyPathList teste(18,17,4);
+    MyPathList teste(3,3,4);
 
     auto t1 = high_resolution_clock::now();
     teste.build();
@@ -17,16 +17,16 @@ int main(){
     auto sec = duration_cast<seconds>(t2 - t1);
     cout << "build time: " << sec.count() << "s\n";
 
-    //teste.print_all_paths();
+    teste.print_all_paths();
 
-    // path elem = teste[0][4];
-    // int i=0;
-    // for(auto &e:elem){
-    //     cout << "path " << i++ << "\n";
-    //     for(auto i:e){
-    //         cout << i.first << " " << i.second << "\n";
-    //     } cout << "\n";
-    // }
+    path elem = teste[0][4];
+    int i=0;
+    for(auto &e:elem){
+        cout << "path " << i++ << "\n";
+        for(auto i:e){
+            cout << i.first << " " << i.second << "\n";
+        } cout << "\n";
+    }
 
     return 0;
 }
